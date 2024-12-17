@@ -10,7 +10,7 @@ library(e1071)
 
 set.seed(1001)
 
-image_dir <- 'C:/Users/ZRose/Desktop/Skewl/breast-histopathology-images/IDC_regular_ps50_idx5/'
+# image_dir <- YOUR_DATASET_DIRECTORY_HERE
 
 imagePatches <- list.files(image_dir, pattern = "\\.png$", full.names = TRUE, recursive = TRUE)
 
